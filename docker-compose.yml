@@ -2,6 +2,7 @@ version: '2'
 
 services:
   app:
+    container_name: democracyos-app
     build:
       context: .
       dockerfile: ./docker/development.Dockerfile
@@ -13,7 +14,7 @@ services:
     # mount source volume, but
     # don't overwrite `node_modules` or mirror dir from container
     volumes:
-      - ${PWD}:/usr/src
+      - /var/www/democracyos:/usr/src
       - /usr/src/node_modules
     tty: true
 
