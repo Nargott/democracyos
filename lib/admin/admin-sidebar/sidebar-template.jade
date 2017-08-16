@@ -9,3 +9,5 @@ ul.admin-menu.nav.nav-pills.nav-stacked(class=forum.privileges.canChangeTopics ?
     li: a(href=urlBuilder.for('admin.comments', {forum: forum.name}) data-section='comments')=t('admin-sidebar.comments.title')
   - if (config.usersWhitelist)
     li: a(href="/admin/users" data-section='users')=t('admin-sidebar.whitelists.title')
+  - if (true)
+    li: a(href="/admin/sync" data-section='users')='SYNCCCCCCCc'
