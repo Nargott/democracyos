@@ -7,6 +7,8 @@
   "mongoUrl": "mongodb://localhost/DemocracyOS-dev",
   "mongoUsersUrl": "",
   "jwtSecret": "Generate a secret token and paste it here.",
+  "key": "Your secret key",
+  "iv": "Your vector",
   "corsDomains": [],
   "signinUrl": "",
   "signupUrl": "",
