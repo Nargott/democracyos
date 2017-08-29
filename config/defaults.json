@@ -10,7 +10,8 @@
     "host": "localhost",
     "user": "root",
     "password": "root",
-    "degug": "true"
+    "database": "democracy",
+    "debug": "true"
   },
   "jwtSecret": "Generate a secret token and paste it here.",
   "key": "Your secret key",
