@@ -6,6 +6,12 @@
   "publicPort": 3000,
   "mongoUrl": "mongodb://localhost/DemocracyOS-dev",
   "mongoUsersUrl": "",
+  "mysql": {
+    "host": "localhost",
+    "user": "root",
+    "password": "root",
+    "degug": "true"
+  },
   "jwtSecret": "Generate a secret token and paste it here.",
   "key": "Your secret key",
   "iv": "Your vector",
